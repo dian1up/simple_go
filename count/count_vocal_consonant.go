@@ -7,12 +7,13 @@ import (
 )
 
 func main() {
-	hidup, mati := count("omama")
+	input, hidup, mati := count("omama")
+	fmt.Println("Input = ", input)
 	fmt.Println("Huruf Hidup = ", hidup)
 	fmt.Println("Huruf Mati = ", mati)
 }
 
-func count(x string) (int, int) {
+func count(x string) (string, int, int) {
 	abjad := "abcdefghijklmnopqrstuvwxyz"
 	urutan := ""
 	hidup := 0
@@ -37,5 +38,5 @@ func count(x string) (int, int) {
 			}
 		}
 	}
-	return hidup, mati
+	return x, hidup, mati
 }

@@ -7,11 +7,12 @@ import (
 )
 
 func main() {
-	hasil := short("osama")
+	input, hasil := short("osama")
+	fmt.Println("Input = ", input)
 	fmt.Println("Hasil = ", hasil)
 }
 
-func short(x string) string {
+func short(x string) (string, string) {
 	abjad := "abcdefghijklmnopqrstuvwxyz"
 	hidup := ""
 	mati := ""
@@ -33,5 +34,5 @@ func short(x string) string {
 		}
 	}
 
-	return hidup + mati
+	return x, hidup + mati
 }
