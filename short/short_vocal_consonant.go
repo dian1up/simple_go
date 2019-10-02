@@ -1,5 +1,4 @@
-package short
-
+package main
 
 import (
 	"fmt"
@@ -8,11 +7,11 @@ import (
 )
 
 func main() {
-	hasil := urut("osama")
+	hasil := short("osama")
 	fmt.Println("Hasil = ", hasil)
 }
 
-func urut(x string) string {
+func short(x string) string {
 	abjad := "abcdefghijklmnopqrstuvwxyz"
 	hidup := ""
 	mati := ""
