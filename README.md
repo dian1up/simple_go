@@ -1,4 +1,4 @@
-# Catatan = Baru Beajar Golang
+# Catatan = Baru Belajar Golang
 
 <h2>1. Menghitung jumlah huruf mati dan huruf hidup</h2>
 <h3><p>file terdapat pada folder count.<p></h3>
