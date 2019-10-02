@@ -17,7 +17,6 @@ type shortStruct struct {
 	Hasil string
 }
 
-
 func main() {
 	http.HandleFunc("/count", CountControllers)
 	http.HandleFunc("/short", ShortControllers)
@@ -25,21 +24,6 @@ func main() {
 	http.ListenAndServe(":8080", nil)
 }
 
-// func short(w http.ResponseWriter, r *http.Request) {
-// 	w.Header().Set("Content-Type", "application/json")
-
-// 	if r.Method == "POST" {
-// 		result, err := json.Marshal(data)
-
-// 		if err != nil {
-// 			http.Error(w, err.Error(), http.StatusInternalServerError)
-// 			return
-// 		}
-// 		w.Write(result)
-// 		return
-// 	}
-// 	http.Error(w, "", http.StatusBadRequest)
-// }
 func ShortControllers(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
