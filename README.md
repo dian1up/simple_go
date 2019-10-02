@@ -4,7 +4,7 @@
 <h3><p>file terdapat pada folder count.<p></h3>
 <h3><p>hasil running program<p></h3>
 
-![alt text](https://github.com/dian1up/simple_go/blob/master/ss/count.PNG)
+![alt text](https://github.com/dian1up/simple_go/blob/master/ss/counts.PNG)
 
 <h2>2. Mengurutkan huruf mati dan huruf hidup</h2>
 <h3><p>file terdapat pada folder short.<p></h3>
