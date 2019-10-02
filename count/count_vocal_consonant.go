@@ -1,4 +1,4 @@
-package count
+package main
 
 import (
 	"fmt"
@@ -7,12 +7,12 @@ import (
 )
 
 func main() {
-	hidup, mati := urut("omama")
+	hidup, mati := count("omama")
 	fmt.Println("Huruf Hidup = ", hidup)
 	fmt.Println("Huruf Mati = ", mati)
 }
 
-func urut(x string) (int, int) {
+func count(x string) (int, int) {
 	abjad := "abcdefghijklmnopqrstuvwxyz"
 	urutan := ""
 	hidup := 0
